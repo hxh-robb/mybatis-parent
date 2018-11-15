@@ -445,10 +445,6 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
-          <configuration>
-            <!-- <altDeploymentRepository>internal.repo::default::file://${user.dir}/target/mvn-repo/releases</altDeploymentRepository> -->
-            <altDeploymentRepository>internal.repo.snapshots::default::file://${user.dir}/target/mvn-repo/snapshots</altDeploymentRepository>
-          </configuration>
           <version>${deploy.version}</version>
         </plugin>
 
